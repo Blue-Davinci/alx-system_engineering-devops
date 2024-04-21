@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-# Bash script - uses ssh to connect to the server
-# Dont use -l
-# ssh ubuntu@54.167.146.203 -i ~\.ssh\school
-ssh -i ~/.ssh/school ubuntu@54.167.146.203
+# connecting to a remote server
+ssh -i ~/.ssh/school ubuntu@54.152.186.165
