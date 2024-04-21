@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Bash script - uses ssh to connect to your server using the private
-
-ssh -o IdentityFile=~/.ssh/school ubuntu@54.167.146.203
+# Bash script - uses ssh to connect to the server
+# Dont use -l
+ssh ubuntu@54.167.146.203 -i ~\.ssh\school
